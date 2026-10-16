@@ -1,1 +1,23 @@
-# Aether-Ai-Came
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.aether.camera.ultra">
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-feature android:name="android.hardware.camera2.full" />
+<application
+android:allowBackup="true"
+android:icon="@mipmap/ic_launcher"
+android:label="AETHER CAMERA ULTRA"
+android:theme="@style/Theme.AppCompat.NoActionBar">
+<activity
+android:name=".MainActivity"
+android:exported="true"
+android:screenOrientation="portrait">
+<intent-filter>
+<action android:name="android.intent.action.MAIN" />
+<category android:name="android.intent.category.LAUNCHER" />
+</intent-filter>
+</activity>
+</application>
+</manifest># Aether-Ai-Came
